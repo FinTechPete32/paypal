@@ -1,13 +1,123 @@
-Peterson
-Akin
-Chinelo
-Seun
-Armstrong
+Project Name: Paypal Payment Hosting Solution Team
+
+Project Members:  Peterson
+                  Akin
+                  Chinelo
+                  Seun
+                  Armstrong
+                  Paul
+                  Simon
+You are all active members on this project!
+======================================================
+                HAPPY MEMORIAL WEEKEND!!!
+======================================================
+-- There are 4 important steps we need to carry out 
+in order to push from our local machine (
+AWS > EC2 instance like (Amazon Linux, Ubuntu, Redhat, etc)) 
+into our remote repository
+
+
+Step 1: Create a Working Area
+
+--	We all need to setup/make a local directory also known
+	as a (Working Area) then create or add a file 
+   	using touch command with filename 
+   	please dont forget to add some context to the file. 
+   
+   	We also need have git install so we can inital a 
+   	git repository that help in creating a default 
+   	branch [master, main] 
+   	
+	by using this command: git init 
+
+
+Step 2: Add to Staging Area
+
+--	Once our local project directory has been setup 
+	and the git initiation is completed 
+	then we can carry out the next steps:
+
+	We need to add our file in the local directory 
+	into the git repository on our local machine
+	which is also known as (Staging Area)
+
+	by using this command: 	git add fileName  
+  				git add .   
+  				git add *
+        
+
+Step 3:	Commit to Local Repository
+
+--	Once our Staging setup is completed. 
+	We can also check status and log by 
+	using the following commands:
+	
+	git status - 	To track our file location activity
+	git log - 	To keeps all committed activity
+
+	We can carry out the next steps:
+
+	Before committing our file we need to config our 
+	global setting by adding user email and user name
+ 
+	Then we need to commit our file in the staging area into
+	our local git repository which is known 
+	as (Local Repository)
+
+	by using this command: git commit -m filename
+
+
+Step 4: Push to Remote Repository
+
+--	Once our local repository has been fully committed
+	We need to add our remote repository location address
+	before starting a push process
+	
+	by using this command: git remote add aliasName repoURL
+	
+	Then we're ready to move our file from the git 
+	repository on our local machine to our remote 
+	SCM environment (Source Code Manager > GitHub)
+	
+	by using this command: git push aliasName branchName
+
+	To complete this step, you will need to provide 
+	an active GitHub credentials 
+	username and an active generated token 
+	since GitHub users can no longer authenicate 
+	using password
+
+
+=========================================================================
+Thanks Team
+Enjoy the rest of the day!!!
+
+
+
+
+	
+        
 
 
 
 
 
 
-Paul
-Simon
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
